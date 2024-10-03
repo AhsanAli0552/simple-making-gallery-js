@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.gallery-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-img {
+    float: left;
+}
+
+.gallery-img img{
+    width: 90px;
+    display: grid;
+    margin: 10px 0;
+    height: 120px;
+    opacity: 0.30;
+    transition: 0.5s;
+    object-fit: cover;
+cursor: pointer;
+}
+.gallery-img img:hover{
+    opacity: 1;
+}
+
+.img-collection{
+    float: right;
+}
+
+.img-collection img{
+   width: 380px;
+    height: 530px;
+    margin-left: 10px;
+    margin-top: 2px;
+    object-fit: cover;
+}
